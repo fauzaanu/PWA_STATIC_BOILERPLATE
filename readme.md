@@ -11,6 +11,7 @@ Originally these notes were taken from [firts course on frontendmasters](https:/
 - https://maskable.app/editor - to make icons
 - https://favicon.io/ - for favicons
 - https://www.pwabuilder.com - to export the application for all platforms
+- https://store.app - a web store of web apps, pwas included
 
 ## Snippets
 ```
