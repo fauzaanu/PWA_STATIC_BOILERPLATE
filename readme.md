@@ -3,7 +3,8 @@
 ## Resources:
 - HTTPS server is needed - Github pages would work
 - https://maskable.app/editor - to make icons
-- https://www.pwabuilder.com - to export for all platforms
+- https://favicon.io/ - for favicons
+- https://www.pwabuilder.com - to export the application for all platforms
 
 ## Snippets
 ```
@@ -35,8 +36,6 @@
     - Maker a  _config.yaml
     - `include: [".well-known"]`
     - Create .well-known folder and place assetlinks.json
-
-[TBC]
 
 
 
