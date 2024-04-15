@@ -1,0 +1,12 @@
+<div x-data="{ showInstallButton: false, installPrompt: null, showInstallMessage: false }"
+     x-init="window.addEventListener('beforeinstallprompt', (e) => { e.preventDefault(); installPrompt = e; showInstallButton = true; })"
+     x-init="window.addEventListener('appinstalled', () => { showInstallMessage = true; showInstallButton = false; })"
+     x-show="showInstallButton || showInstallMessage">
+    <button class="bg-gradient-to-r rounded-xl px-5 py-3 shadow-modern from-purple-500 to bg-purple-600 text-white flex gap-2"
+            x-show="showInstallButton"
+            @click="installPrompt.prompt(); showInstallButton = false;">
+        {% include 'icons/download.svg' %}
+        Install
+    </button>
+    <div x-show="showInstallMessage">PWA has been installed!</div>
+</div>
