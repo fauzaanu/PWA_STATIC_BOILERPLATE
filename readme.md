@@ -25,7 +25,7 @@ Originally these notes were taken from [firts course on frontendmasters](https:/
     ]
 ```
 
-## WHY THIS:
+## Disabling selection
 `<body oncontextmenu="return false">`
 - to make sure that the context menu does not pop up when a user hold clicks a link
 
@@ -34,11 +34,13 @@ Originally these notes were taken from [firts course on frontendmasters](https:/
     user-select: none;
     -webkit-user-select: none;
 }
+
+<!-- or use select-none on tailwindcss-->
 ```
 - to make sure that the context menu does not pop up when a user selects a text
 
 
-# ANDROID
+# Publishing on Android
 - If github pages:
     - Maker a  _config.yaml
     - `include: [".well-known"]`
